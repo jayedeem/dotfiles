@@ -1,0 +1,87 @@
+TERM: xterm-256color
+
+font:
+  size: 15.0
+  normal:
+    family: MesloLGL Nerd Font
+    style: Regular
+
+  Bold:
+    family: MesloLGL Nerd Font
+    style: Bold
+
+  italic:
+    family: MesloLGL Nerd Font
+    style: Italic
+
+cursor:
+  style: Beam
+  unfocused_hollow: true
+
+window:
+  # Window dimensions (changes require restart)
+  #
+  # Specified in number of columns/lines, not pixels.
+  # If both are `0`, this setting is ignored.
+  dimensions:
+    columns: 0
+    lines: 0
+
+  decorations: none
+
+  dynamic_title: true
+
+  offset:
+    x: 0
+    y: 1
+
+  glyph_offset:
+    x: 0
+    y: 1
+
+  padding:
+    x: 25
+    y: 25
+
+  dynamic_padding: true
+
+startup_mode: windowed
+
+key: return,
+mods: Command,
+action: SpawnNewInstance
+
+use_thin_strokes: true
+
+live_config_reload: true
+
+# BEGIN ACE
+colors:
+  primary:
+    background: '0x150c14'
+    foreground: '0xe9a3bc'
+  cursor:
+    text:       '0x150c14'
+    cursor:     '0xe9a3bc'
+  normal:
+    black:      '0x150c14'
+    red:        '0xFCA274'
+    green:      '0x773983'
+    yellow:     '0x7D4384'
+    blue:       '0x953C84'
+    magenta:    '0xC83E82'
+    cyan:       '0xA04F8B'
+    white:      '0xe9a3bc'
+  bright:
+    black:      '0xa37283'
+    red:        '0xFCA274'
+    green:      '0x773983'
+    yellow:     '0x7D4384'
+    blue:       '0x953C84'
+    magenta:    '0xC83E82'
+    cyan:       '0xA04F8B'
+    white:      '0xe9a3bc'
+
+# END ACE
+
+background_opacity: .6
